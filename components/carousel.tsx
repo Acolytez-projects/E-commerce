@@ -27,7 +27,7 @@ export const Carousel = ({ products }: Props) => {
   return (
     <Card className="relative overflow-hidden rounded-lg shadow-md border-gray-300">
       {currentProduct.images && currentProduct.images[0] && (
-        <div className="relative h-180 w-full">
+        <div className="relative h-140 w-full">
           <Image
             alt={currentProduct.name}
             src={currentProduct.images[0]}
@@ -37,7 +37,7 @@ export const Carousel = ({ products }: Props) => {
           />
         </div>
       )}
-      <CardContent className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
+      {/* <CardContent className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
         <CardTitle className="text-3xl font-bold text-black mb-2">
           {currentProduct.name}
         </CardTitle>
@@ -46,7 +46,7 @@ export const Carousel = ({ products }: Props) => {
             ${(price.unit_amount / 100).toFixed(2)}
           </p>
         )}
-      </CardContent>
+      </CardContent> */}
     </Card>
   );
 };
