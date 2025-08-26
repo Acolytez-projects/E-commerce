@@ -11,6 +11,12 @@ The **E-commerce Platform** is a modern, full-stack web application built with *
 
 ---
 
+## 👨‍💻 About Me  
+
+I’m Aman Stha a passionate **full-stack developer** who builds impactful web applications. My portfolio showcases projects ranging from **Youtube-AI-Application**, **Real-Time Chat Apps**, **E-Commerce platforms**, to **Charity Platform Driving Real Change** and more.
+
+---
+
 ## ⚙️ Tech Stack
 
 - **Next.js** – Full-stack React framework with server-side rendering  
